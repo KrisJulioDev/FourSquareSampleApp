@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A22322C0F99FFB6A8A09CC9 /* Pods_FourSquareSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CCAEB4196611AB71829027 /* Pods_FourSquareSampleApp.framework */; };
+		35770C0E2151430600369C73 /* VenueRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35770C0D2151430600369C73 /* VenueRequest.swift */; };
+		35770C18215150B100369C73 /* VenueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35770C17215150B100369C73 /* VenueCell.swift */; };
 		357B822C214D310F00B69E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B822B214D310F00B69E53 /* AppDelegate.swift */; };
 		357B822E214D310F00B69E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B822D214D310F00B69E53 /* ViewController.swift */; };
 		357B8231214D310F00B69E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357B822F214D310F00B69E53 /* Main.storyboard */; };
 		357B8233214D310F00B69E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357B8232214D310F00B69E53 /* Assets.xcassets */; };
 		357B8236214D310F00B69E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357B8234214D310F00B69E53 /* LaunchScreen.storyboard */; };
+		357B823F214D317C00B69E53 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B823E214D317C00B69E53 /* APIClient.swift */; };
+		357B8241214D32CC00B69E53 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B8240214D32CC00B69E53 /* MapViewModel.swift */; };
+		357B8245214D331E00B69E53 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B8244214D331E00B69E53 /* Venue.swift */; };
+		35F4A94F214DEF2700285830 /* AppKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F4A94E214DEF2700285830 /* AppKeys.swift */; };
+		35F4A951214DFC2B00285830 /* VenueDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F4A950214DFC2B00285830 /* VenueDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16CCAEB4196611AB71829027 /* Pods_FourSquareSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourSquareSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309748FE95F11C1421A43117 /* Pods-FourSquareSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourSquareSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourSquareSampleApp/Pods-FourSquareSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		35770C0D2151430600369C73 /* VenueRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRequest.swift; sourceTree = "<group>"; };
+		35770C17215150B100369C73 /* VenueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCell.swift; sourceTree = "<group>"; };
 		357B8228214D310F00B69E53 /* FourSquareSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourSquareSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357B822B214D310F00B69E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		357B822D214D310F00B69E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,12 @@
 		357B8232214D310F00B69E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357B8235214D310F00B69E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		357B8237214D310F00B69E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357B823E214D317C00B69E53 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		357B8240214D32CC00B69E53 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		357B8244214D331E00B69E53 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		35F4A94E214DEF2700285830 /* AppKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppKeys.swift; sourceTree = "<group>"; };
+		35F4A950214DFC2B00285830 /* VenueDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VenueDetailsViewController.swift; path = FourSquareSampleApp/ViewControllers/VenueDetailsViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC4A56E55CF5AFEA65D86501 /* Pods-FourSquareSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourSquareSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourSquareSampleApp/Pods-FourSquareSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A22322C0F99FFB6A8A09CC9 /* Pods_FourSquareSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35770C0F2151435300369C73 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				357B822B214D310F00B69E53 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		35770C102151435C00369C73 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				357B822F214D310F00B69E53 /* Main.storyboard */,
+				357B8234214D310F00B69E53 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		35770C14215143D000369C73 /* Venues */ = {
+			isa = PBXGroup;
+			children = (
+				357B822D214D310F00B69E53 /* ViewController.swift */,
+				35F4A950214DFC2B00285830 /* VenueDetailsViewController.swift */,
+			);
+			name = Venues;
+			sourceTree = "<group>";
+		};
+		35770C19215150BB00369C73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35770C17215150B100369C73 /* VenueCell.swift */,
+			);
+			name = Views;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		357B821F214D310F00B69E53 = {
 			isa = PBXGroup;
 			children = (
 				357B822A214D310F00B69E53 /* FourSquareSampleApp */,
 				357B8229214D310F00B69E53 /* Products */,
+				48FE1961E22EBD4B9B6AE61F /* Pods */,
+				A4DF65DD2084C8013CF17AA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +110,60 @@
 		357B822A214D310F00B69E53 /* FourSquareSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				357B822B214D310F00B69E53 /* AppDelegate.swift */,
-				357B822D214D310F00B69E53 /* ViewController.swift */,
-				357B822F214D310F00B69E53 /* Main.storyboard */,
+				35770C19215150BB00369C73 /* Views */,
+				35770C0F2151435300369C73 /* Delegates */,
+				357B8242214D32CE00B69E53 /* Networking */,
+				357B823D214D317200B69E53 /* Model */,
+				357B8243214D32DE00B69E53 /* ViewControllers */,
+				35770C102151435C00369C73 /* Storyboards */,
 				357B8232214D310F00B69E53 /* Assets.xcassets */,
-				357B8234214D310F00B69E53 /* LaunchScreen.storyboard */,
+				35F4A94E214DEF2700285830 /* AppKeys.swift */,
 				357B8237214D310F00B69E53 /* Info.plist */,
 			);
 			path = FourSquareSampleApp;
+			sourceTree = "<group>";
+		};
+		357B823D214D317200B69E53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				357B8240214D32CC00B69E53 /* MapViewModel.swift */,
+				357B8244214D331E00B69E53 /* Venue.swift */,
+				35770C0D2151430600369C73 /* VenueRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		357B8242214D32CE00B69E53 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				357B823E214D317C00B69E53 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		357B8243214D32DE00B69E53 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				35770C14215143D000369C73 /* Venues */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		48FE1961E22EBD4B9B6AE61F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC4A56E55CF5AFEA65D86501 /* Pods-FourSquareSampleApp.debug.xcconfig */,
+				309748FE95F11C1421A43117 /* Pods-FourSquareSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4DF65DD2084C8013CF17AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16CCAEB4196611AB71829027 /* Pods_FourSquareSampleApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 357B823A214D310F00B69E53 /* Build configuration list for PBXNativeTarget "FourSquareSampleApp" */;
 			buildPhases = (
+				9FBAD2B9E9411005C431B6F4 /* [CP] Check Pods Manifest.lock */,
 				357B8224214D310F00B69E53 /* Sources */,
 				357B8225214D310F00B69E53 /* Frameworks */,
 				357B8226214D310F00B69E53 /* Resources */,
+				2C5B0150171B3E596371FA23 /* [CP] Embed Pods Frameworks */,
+				65E411976CFE219F3209FB07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +236,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C5B0150171B3E596371FA23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FourSquareSampleApp/Pods-FourSquareSampleApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourSquareSampleApp/Pods-FourSquareSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65E411976CFE219F3209FB07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FourSquareSampleApp/Pods-FourSquareSampleApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourSquareSampleApp/Pods-FourSquareSampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FBAD2B9E9411005C431B6F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FourSquareSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		357B8224214D310F00B69E53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				357B822E214D310F00B69E53 /* ViewController.swift in Sources */,
+				35770C0E2151430600369C73 /* VenueRequest.swift in Sources */,
+				35F4A951214DFC2B00285830 /* VenueDetailsViewController.swift in Sources */,
+				357B8245214D331E00B69E53 /* Venue.swift in Sources */,
 				357B822C214D310F00B69E53 /* AppDelegate.swift in Sources */,
+				35F4A94F214DEF2700285830 /* AppKeys.swift in Sources */,
+				357B823F214D317C00B69E53 /* APIClient.swift in Sources */,
+				357B8241214D32CC00B69E53 /* MapViewModel.swift in Sources */,
+				35770C18215150B100369C73 /* VenueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +441,14 @@
 		};
 		357B823B214D310F00B69E53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4A56E55CF5AFEA65D86501 /* Pods-FourSquareSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K2HSV5989A;
 				INFOPLIST_FILE = FourSquareSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kris.apps.FourSquareSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisapps.FourSquareSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +457,14 @@
 		};
 		357B823C214D310F00B69E53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309748FE95F11C1421A43117 /* Pods-FourSquareSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K2HSV5989A;
 				INFOPLIST_FILE = FourSquareSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kris.apps.FourSquareSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisapps.FourSquareSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

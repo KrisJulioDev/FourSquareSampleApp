@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Requesting your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Requesting your location</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,5 +45,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>FOURSQUARE_CLIENT_ID</key>
+	<string>SSGMPC2URPMBCWQJ3OY3DVWGPGN1UXZI3R3YJBHU1ZJPOWAP</string>
+	<key>FOURSQUARE_CLIENT_SECRET</key>
+	<string>TAQZFHMEW0RQ4WFYBVIDZI0ZWKM0X2PUU2JEFYYQMDOXFJR3</string>
 </dict>
 </plist>
