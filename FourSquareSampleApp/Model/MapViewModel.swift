@@ -7,6 +7,9 @@ import MapKit
 protocol VenueDelegate {
     /// Call everytime there's changes to venues
     func refreshData()
+    
+    /// handle error, show alert
+    func showError(_ error: ResponseError)
 }
 
 class MapViewModel {
@@ -34,9 +37,15 @@ class MapViewModel {
                 success,
                 let newVenues = data?.response.venues
             else {
+                self?.delegate?.showError(.unexpected)
                 return
             }
-            self?.venues = newVenues
+            
+            if newVenues.isEmpty {
+                self?.delegate?.showError(.noResult)
+            } else {
+                self?.venues = newVenues
+            }
         }
     }
     
@@ -46,4 +55,3 @@ class MapViewModel {
         return formatter.string(from: Date())
     }
 }
-

@@ -95,6 +95,14 @@ class ViewController: UIViewController, VenueDelegate {
             mapView.addAnnotation(marker)
         }
     }
+    
+    func showError(_ error: ResponseError) {
+        let alert = UIAlertController.init(title: error.title, message: error.description, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { _ in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        navigationController?.present(alert, animated: true, completion: nil)
+    }
 }
 
 // MARK: TableView Delegate and Data source

@@ -10,6 +10,7 @@
 		1A22322C0F99FFB6A8A09CC9 /* Pods_FourSquareSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CCAEB4196611AB71829027 /* Pods_FourSquareSampleApp.framework */; };
 		35770C0E2151430600369C73 /* VenueRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35770C0D2151430600369C73 /* VenueRequest.swift */; };
 		35770C18215150B100369C73 /* VenueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35770C17215150B100369C73 /* VenueCell.swift */; };
+		35770C1B2151545D00369C73 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35770C1A2151545D00369C73 /* ResponseError.swift */; };
 		357B822C214D310F00B69E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B822B214D310F00B69E53 /* AppDelegate.swift */; };
 		357B822E214D310F00B69E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B822D214D310F00B69E53 /* ViewController.swift */; };
 		357B8231214D310F00B69E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357B822F214D310F00B69E53 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		309748FE95F11C1421A43117 /* Pods-FourSquareSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourSquareSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourSquareSampleApp/Pods-FourSquareSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		35770C0D2151430600369C73 /* VenueRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRequest.swift; sourceTree = "<group>"; };
 		35770C17215150B100369C73 /* VenueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCell.swift; sourceTree = "<group>"; };
+		35770C1A2151545D00369C73 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
 		357B8228214D310F00B69E53 /* FourSquareSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourSquareSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357B822B214D310F00B69E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		357B822D214D310F00B69E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				357B8240214D32CC00B69E53 /* MapViewModel.swift */,
 				357B8244214D331E00B69E53 /* Venue.swift */,
 				35770C0D2151430600369C73 /* VenueRequest.swift */,
+				35770C1A2151545D00369C73 /* ResponseError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				357B822C214D310F00B69E53 /* AppDelegate.swift in Sources */,
 				35F4A94F214DEF2700285830 /* AppKeys.swift in Sources */,
 				357B823F214D317C00B69E53 /* APIClient.swift in Sources */,
+				35770C1B2151545D00369C73 /* ResponseError.swift in Sources */,
 				357B8241214D32CC00B69E53 /* MapViewModel.swift in Sources */,
 				35770C18215150B100369C73 /* VenueCell.swift in Sources */,
 			);
